@@ -39,6 +39,7 @@ a:hover {
 .first-container {
   display: flex;
   padding-top: 190px;
+  margin-top: 30px;
   background-image: url(../images/chess-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
