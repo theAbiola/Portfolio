@@ -60,6 +60,7 @@ a:hover {
   padding-top: 20px;
   margin-bottom: 0;
 }
+
 .heading-text h2 {
   font-size: 1.5rem;
   color: white;
@@ -95,6 +96,7 @@ a:hover {
     flex-basis: 60%;
     margin-left: 20%;
   }
+
   .heading-image img {
     height: 200px;
   }
@@ -171,7 +173,8 @@ hr {
   justify-content: center;
   padding: 10px 20px;
   border: none;
-  background-color: rgb(200, 197, 197); /* Default button color */
+  background-color: rgb(200, 197, 197);
+  /* Default button color */
   /* color: white; */
   font-size: 16px;
   cursor: pointer;
@@ -183,10 +186,22 @@ hr {
   background-color: #e5eaed;
 }
 
+button.github-svg {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 140px;
+}
+
+button.github-svg>img {
+  height: 20px;
+  margin-left: 5px;
+}
+
 @media (max-width: 800px) {
   .project-grid {
     grid-template-columns: 1fr;
   }
+
   .grid-item .project-image {
     max-width: 70%;
     height: auto;
@@ -226,6 +241,7 @@ hr {
   margin: 0 10px;
   transition: 0.3s;
 }
+
 .links a img:hover {
   transform: translateY(-15px);
 }
