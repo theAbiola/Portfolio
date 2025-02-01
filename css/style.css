@@ -206,6 +206,11 @@ button.github-svg>img {
     max-width: 70%;
     height: auto;
   }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 /* Contact section */
